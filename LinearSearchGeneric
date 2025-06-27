@@ -1,0 +1,27 @@
+public class LinearSearchGeneric {
+        // Generic method for linear search
+	    public static <T> int linearSearch(T[] array, T target) {
+	        for (int i = 0; i < array.length; i++) {
+	            if (array[i].equals(target)) {  // Use equals() for comparing objects
+	                return i;  // Target found
+	            }
+	        }
+	        return -1;  // Target not found
+	    }
+
+	    public static void main(String[] args) {
+	        // Integer array example
+	        Integer[] intArray = {10, 20, 30, 40, 50};
+	        int intIndex = linearSearch(intArray, 30);
+	        System.out.println("Index of 30 is: " + intIndex);
+
+	        // String array example
+	        String[] strArray = {"apple", "banana", "cherry"};
+	        int strIndex = linearSearch(strArray, "banana");
+	        System.out.println("Index of 'banana' is: " + strIndex);
+
+	        // Example not found
+	        int notFoundIndex = linearSearch(strArray, "mango");
+	        System.out.println("Index of 'mango' is: " + notFoundIndex);
+	    }
+	}
