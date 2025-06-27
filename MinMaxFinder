@@ -1,0 +1,32 @@
+package corejava;
+
+public class MinMaxFinder {
+	
+	    // Generic method with Comparable constraint
+	    public static <T extends Comparable<T>> void findMinMax(T[] array) {
+	        if (array == null || array.length == 0) {
+	            System.out.println("Array is empty.");
+	            return;
+	        }
+
+	        T min = array[0];
+	        T max = array[0];
+
+	        for (int i = 1; i < array.length; i++) {
+	            if (array[i].compareTo(min) < 0) {
+	                min = array[i];
+	            }
+	            if (array[i].compareTo(max) > 0) {
+	                max = array[i];
+	            }
+	        }
+
+	        System.out.println("Minimum: " + min);
+	        System.out.println("Maximum: " + max);
+	    }
+
+	    public static void main(String[] args) {
+	        // Integer array example
+	        Integer[] intArray = {40, 10, 90, 20, 70};
+	        System.out.println("For Integer array:");
+	        findMinMax(intArray);
