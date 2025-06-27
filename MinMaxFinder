@@ -30,3 +30,5 @@ public class MinMaxFinder {
 	        Integer[] intArray = {40, 10, 90, 20, 70};
 	        System.out.println("For Integer array:");
 	        findMinMax(intArray);
+}
+}
