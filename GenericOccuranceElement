@@ -21,4 +21,5 @@ public class GenericOccuranceElement {
 	        // Integer array example
 	        Integer[] intArray = {1, 2, 3, 2, 4, 2, 5};
 	        System.out.println("Integer 2 occurs: " + countOccurrences(intArray, 2) + " times");
-
+}
+}
