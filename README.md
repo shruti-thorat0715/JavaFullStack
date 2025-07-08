@@ -30,19 +30,19 @@ ________________________________________________________________________________
 </dependency>
 
 </dependencies>
-____________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________
 
 **Prerequisites:**
 
-Before running the project, ensure you have the following installed:
+**Before running the project, ensure you have the following installed:**
 
-1]Java Development Kit (JDK) 17 or higher.
+**1]Java Development Kit (JDK) 17 or higher.**
 
-2]PostgreSQL 15 or higher.
+**2]PostgreSQL 15 or higher.**
 
-3]create PostgreSQL database with the following table:
+**3]create PostgreSQL database with the following table:**
   
-   -- Run in pgAdmin or psql
+***-- Run in pgAdmin or psql***
 
 
 CREATE TABLE Authors (
@@ -110,16 +110,16 @@ CREATE TABLE Order_Items (
 _______________________________________________________________________________________________________________________________ 
 **Contact:**
 
-For any questions or feedback, feel free to reach out:
+***For any questions or feedback, feel free to reach out:***
 
-Your Name : Shruti Bapu Thorat
+**Your Name :** Shruti Bapu Thorat
 
-Email: shrutithorat767@gmail.com
+**Email:** shrutithorat767@gmail.com
 
-GitHub:https://github.com/shruti-thorat0715/JavaFullStack/edit/main/README.md
+**GitHub:** https://github.com/shruti-thorat0715/JavaFullStack/edit/main/README.md
 _______________________________________________________________________________________________________________________________
 
-Enjoy using the Online Bookshop ! 🚀
+**Enjoy using the Online Bookshop ! 🚀**
 
 
  
