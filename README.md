@@ -17,17 +17,28 @@ ________________________________________________________________________________
 ____________________________________________________________________________________________________________________________
 **Dependancies:**
 
-<dependencies><dependency>
+<dependencies>
+
+    <dependency>
+   
     <groupId>org.postgresql</groupId>
+    
     <artifactId>postgresql</artifactId>
+    
     <version>42.7.7</version>
-</dependency></dependencies>
+
+</dependency>
+
+</dependencies>
 ____________________________________________________________________________________________________________________________
 **Prerequisites:**
 
 Before running the project, ensure you have the following installed:
+
 1]Java Development Kit (JDK) 17 or higher.
+
 2]PostgreSQL 15 or higher.
+
 3]create PostgreSQL database with the following table:
   
    -- Run in pgAdmin or psql
